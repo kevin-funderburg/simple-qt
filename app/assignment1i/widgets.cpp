@@ -13,21 +13,22 @@
 MyWidget::MyWidget(QWidget *parent)
 : QWidget(parent)
 {
+    // Quit
     QPushButton *quit = new QPushButton(tr("Quit"));
     quit->setFont(QFont("Helvetica", 12));
-
+    // Volume
     QSlider *volslider = new QSlider(Qt::Horizontal);
     volslider->setRange(0, 99);
     volslider->setValue(0);
     QLCDNumber *vollcd = new QLCDNumber(2);
     vollcd->setSegmentStyle(QLCDNumber::Filled);
-
+    // FM
     QDial *fmdial = new QDial;
     fmdial->setNotchesVisible(true);
     fmdial->setMinimum(0);
     fmdial->setMaximum(100);
     QLCDNumber *fmlcd = new QLCDNumber(3);
-
+    // AM
     QSlider *amslider = new QSlider(Qt::Vertical);
     amslider->setRange(0, 10);
     amslider->setValue(5);
