@@ -1,7 +1,7 @@
 Simple QT Radio
 =======================
 
-A simple demonstration of UI development using QT to make a simple radio.
+A demonstration of UI development using QT to make a simple radio.
 
 ![](/app/assignment1i/scene.png)
 
@@ -20,14 +20,14 @@ A simple demonstration of UI development using QT to make a simple radio.
 Features
 --------
 
--
+- [enter installation informaiton]
 
 
 <a id="installation"></a>
 Installation
 ------------
 
-Download [the latest release][gh-releases] and double-click the file to install in Alfred.
+
 
 
 <a id="usage"></a>
